@@ -33,6 +33,7 @@
   <li>storeId: uma string que representa o ID do estabelecimento com o qual o cliente está conversando.</li>
   <li>storeMenuSlug: uma string que representa o slug do menu do estabelecimento.</li>
   <li>messages: um array de objetos de mensagem, que contém as mesmas propriedades do esquema de mensagem.</li>
+</ul>
 <p>O modelo conversations é criado a partir do esquema e é utilizado pelo aplicativo para agrupar as mensagens recebidas e enviadas pelo estabelecimento em conversas, de forma que cada conversa é representada por um documento na coleção conversations.</p>
 
 
