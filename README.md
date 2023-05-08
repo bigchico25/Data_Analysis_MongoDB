@@ -24,8 +24,8 @@
 </ul>
 <p>O modelo messages é criado a partir do esquema e é utilizado pelo aplicativo para armazenar as mensagens recebidas e enviadas pelo estabelecimento.</p>
 
-<h3>conversations.js</h3>
-<p>O arquivo conversations.js contém a definição do esquema de conversa para o banco de dados MongoDB e o modelo correspondente. O esquema é definido utilizando o pacote mongoose e contém as seguintes propriedades:</p>
+<h3>conversation.js</h3>
+<p>O arquivo conversation.js contém a definição do esquema de conversa para o banco de dados MongoDB e o modelo correspondente. O esquema é definido utilizando o pacote mongoose e contém as seguintes propriedades:</p>
 <ul>
   <li>_id: uma string que representa o ID da conversa.</li>
   <li>customerPhone: uma string que representa o número de telefone do cliente que iniciou a conversa.</li>
