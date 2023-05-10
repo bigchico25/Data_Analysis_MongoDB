@@ -36,4 +36,10 @@
 </ul>
 <p>O modelo conversations é criado a partir do esquema e é utilizado pelo aplicativo para agrupar as mensagens recebidas e enviadas pelo estabelecimento em conversas, de forma que cada conversa é representada por um documento na coleção conversations.</p>
 
-
+<h2>Conversations.ipynb</h2>
+Esses dois blocos de código são programas em Python que lêem um arquivo JSON contendo informações sobre conversas de clientes com restaurantes, e depois filtram e agregam os dados para gerar duas visualizações diferentes:
+<ul>
+  <li>O primeiro bloco de código gera uma tabela formatada e uma contagem do número de conversas por restaurante, durante um período de tempo definido pelo usuário. O usuário é solicitado a fornecer uma data inicial e final, e o código filtra o DataFrame para exibir apenas as conversas que ocorreram nesse período. Em seguida, o código agrupa as conversas por restaurante e conta quantas conversas ocorreram em cada um, e exibe a tabela formatada e a contagem total de conversas.</li>
+  <li>O segundo bloco de código gera um gráfico de barras mostrando o número de conversas por restaurante, durante um período de tempo definido pelo usuário. O usuário é solicitado a fornecer uma data inicial e final, e o código filtra o DataFrame para exibir apenas as conversas que ocorreram nesse período. Em seguida, o código agrupa as conversas por restaurante e conta quantas conversas ocorreram em cada um. O gráfico de barras é gerado usando a biblioteca Matplotlib, e é exibido com rótulos apropriados para os eixos e um título que inclui as datas selecionadas pelo usuário.</li>
+</ul>
+<p> Ambos os programas usam a biblioteca Pandas para ler e manipular dados tabulares, e usam a biblioteca datetime para lidar com datas e horas. O primeiro programa usa o método groupby() para agrupar os dados por restaurante, e o segundo usa o método count() para contar as conversas em cada grupo. O primeiro programa usa a biblioteca Styler da Pandas para formatar a tabela, enquanto o segundo usa a biblioteca Matplotlib para gerar o gráfico de barras. </p>
