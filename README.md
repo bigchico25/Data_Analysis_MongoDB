@@ -1,6 +1,7 @@
 <h1 align="center"> Análise de Dados de Pedidos por Whatsapp Usando MongoDB e Mongoose </h1>
 <hr><h2>Atenção</h2></hr>
-<hr><p>Na última versão atualizada, depois de finalizada a parte de análise de dados, foi adicionada uma interface web dentro da paste "python" na raiz do projeto. Observa-se que, para essa versão, o front(python) e o backend(app.js, conversation.js e messages.js) estão prontos, porém, a infraestrutura de conexão ainda está sendo desenvolvida. Recomenda-se alterar as configurações de segurança para permitir a chamada de dados do back no front. </p></hr>
+<p>Na última versão atualizada, depois de finalizada a parte de análise de dados, foi adicionada uma interface web dentro da paste "python" na raiz do projeto. Observa-se que, para essa versão, o front(python) e o backend(app.js, conversation.js e messages.js) estão prontos, porém, a infraestrutura de conexão ainda está sendo desenvolvida. Recomenda-se alterar as configurações de segurança para permitir a chamada de dados do back no front. </p>
+<hr></hr>
 <p>O código consiste em um aplicativo que usa o MongoDB para armazenar mensagens de texto enviadas por clientes para lojas e agrupa essas mensagens em conversas, com base no número de telefone do cliente e no identificador da loja.</p> 
 
 <h2>app.js</h2>
